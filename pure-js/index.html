@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pure JS TODO App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+  </head>
+  <body>
+    <div role="heading">
+      <nav>
+        <a class="brand" href="index.html">TAJS</a>
+        <ul>
+          <li><a href="https://github.com/chrisonbass" target="_blank">github</a></li>
+        </ul>
+      </nav>
+      <h1>Todo App</h1>
+      <p>Using pure JS baby</p>
+   </div>
+    <div role="main">
+      <form id="todo-form">
+        <div>
+          <input type="text" id="todo-entry" />
+          <button type="submit" id="todo-add-button">
+            <span class="icon plus" /> Add
+          </button>
+        </div>
+      </form>
+      <ul id="todo-list"></ul>
+    </div>
+    <script type="text/javascript" src="./app.js"></script>
+  </body>
+</html>
